@@ -20,7 +20,8 @@ En cas de problème d'installation, contactez moi en mp sur...
 - Twitter (@Mat7sept)
 
 Note:
-Ce projet ne marche pas sur tous les ordinateurs.
+Ce projet ne marche pas parfaitement sur tous les ordinateurs.
+Il peut y avoir des bugs d'affichage...
 C'est ce qui m'a valu cette note.
 
 ---------------------==[ FONCTIONNEMENT DU PROJET ]==----------------------
