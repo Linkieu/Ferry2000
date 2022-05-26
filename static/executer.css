@@ -1,0 +1,10 @@
+/*--------------------------------------------------------------*/
+/*     AFFICHE SIMPLEMENT UN FOND POUR LA FENÊTRE EXECUTER      */
+/*--------------------------------------------------------------*/
+
+/*Note: Initialement le fichier css devait contenir plus de chose.
+Au final ce n'est pas le cas, mais je préfère le laisser tel quel.*/
+
+body{
+	background-color: silver
+}

@@ -1,0 +1,56 @@
+/*--------------------------------------------------------------*/
+/*       PAGES DE CONNEXION POUR L'OUVERTURE DE LA SESSION      */
+/*--------------------------------------------------------------*/
+
+img.pop_up_ouverture_session{
+	position: absolute; 
+	top: 150px; left: 150px; 
+	width: 501px;
+	height: 275px;
+}
+
+div.connexion_session_utilisateur{
+	position: absolute; 
+	top: 305px; left: 285px; 
+}
+
+div.connexion_session_mdp{
+	position: absolute; 
+	top: 339px; left: 285px; 
+}
+
+div.connexion_session_ok{
+	position: absolute; 
+	top: 380px; left: 350px; 
+}
+
+/*--------------------------------------------------------------*/
+/*           AFFICHAGE DES ICONES SUR LE BUREAU                 */
+/*--------------------------------------------------------------*/
+
+div.icones_bureau{
+	position: absolute;
+	top:50px; left:23px;
+	width:739px;
+}
+
+img.icone_bureau{
+	position: relative;
+	bottom:72px; left:17px;
+	margin-top:40px;
+	margin-right:40px;
+	width:40px; height:40px;
+}
+
+a.icone_bureau{
+color:white;
+}
+
+p.nom_icone_bureau{
+	position: fixed;
+	display: inline;
+	background-color: rgba(0, 128, 128, 1); /*Surligne le texte*/
+	width: 75px; height: 29px; /*Taille du texte*/
+	overflow: hidden; /*Si un mot est couper par la limite, on cache ce qui sort (et aussi légèrement avant)*/
+	text-overflow: ellipsis; /*On place 3 petits points juste avant la coupure*/
+}

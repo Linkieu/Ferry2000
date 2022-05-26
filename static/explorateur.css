@@ -1,0 +1,105 @@
+/*--------------------------------------------------------------*/
+/*        AFFICHAGE DU TEXTE DES DIVERSES BIBLIOTHEQUES         */
+/*--------------------------------------------------------------*/
+
+h1.explorateur{
+	position:absolute;
+	top:100px; left:20px;
+	font-family: verdanab;
+	font-size: 20px; color: black;
+	}
+	
+p.explorateur{
+	position:absolute;
+	top:180px; left:20px;
+	font-family: windowsfont;
+	font-size: 14px; color: black;
+	}
+	
+p.addresse{
+	position:absolute;
+	top:27px; left:87px;
+	font-family: windowsfont;
+	font-size: 13px; color: black;
+	}
+	
+/*--------------------------------------------------------------*/
+/*             DISPOSITION DES ICONES DES PARAMETRES            */
+/*--------------------------------------------------------------*/
+
+	
+img.fichiers{
+	display:inline-block;
+	margin-right : 52px;
+	width: 48px; height:48px; /*Largeur / Hauteur*/
+}
+
+p.fichiers{
+	display:inline-block; width: 90px; height:100px;
+	overflow: hidden; /*Si un mot est couper par la limite, on cache ce qui sort (et aussi légèrement avant)*/
+	text-overflow: ellipsis; /*On place 3 petits points juste avant la coupure*/
+	margin-right : 12px;
+	text-align:center;
+	font-family: windowsfont;
+	font-size: 12px; color: black;
+}
+
+/*--------------------------------------------------------------*/
+/*    DISPOSITION DE LA LISTE DE DOCUMENTS DANS MES DOCUMENTS   */
+/*--------------------------------------------------------------*/
+
+img.barre_classer_docs{
+	position:absolute;
+	top:67px;
+	right:2px;
+}
+
+div.classement_docs{
+	position:absolute;
+	top:90px;
+	left:247px;
+}
+
+div.docs{
+	position:relative;
+	height:20px;
+}
+
+img.classement_docs{
+	position: absolute;
+	left:0px;
+	width:16px; height:16px;
+}
+
+p.classement_docs_nom{
+	position: absolute;
+	left:20px; top:-12px;
+	font-family: windowsfont;
+	font-size: 14px; color: black;
+	width: 140px; height:15px;
+	overflow: hidden; /*Si un mot est couper par la limite, on cache ce qui sort (et aussi légèrement avant)*/
+	text-overflow: ellipsis; /*On place 3 petits points juste avant la coupure*/
+}
+p.classement_docs_protection{
+	position: absolute;
+	left:166px; top:-12px;
+	font-family: windowsfont;
+	font-size: 14px; color: black;
+}
+p.classement_docs_auteur{
+	position: absolute;
+	left:256px; top:-12px;
+	font-family: windowsfont;
+	font-size: 14px; color: black;
+	width: 100px;
+	overflow: hidden; /*Si un mot est couper par la limite, on cache ce qui sort (et aussi légèrement avant)*/
+	text-overflow: ellipsis; /*On place 3 petits points juste avant la coupure*/
+	width:110px; height:15px;
+}
+p.classement_docs_date{
+	position: absolute;
+	left:376px; top:-12px;
+	font-family: windowsfont;
+	font-size: 14px; color: black;
+	width:110px;
+}

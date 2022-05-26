@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------*/
+/*     DISPOSITION ICONES DE LA BIBLIOTHEQUE DES PROGRAMMES     */
+/*--------------------------------------------------------------*/
+
+div.icones_programmes{
+	position: absolute;
+	top:120px; left:270px;
+	width:493px;
+}
+
+p.icones_programmes{
+	position: fixed;
+	display: inline;
+	color:black;
+	width: 75px; height: 29px; /*Taille du texte*/
+	overflow: hidden; /*Si un mot est couper par la limite, on cache ce qui sort (et aussi légèrement avant)*/
+	text-overflow: ellipsis; /*On place 3 petits points juste avant la coupure*/
+}

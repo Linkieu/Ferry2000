@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------*/
+/*                MISE EN PAGE D'EVARISTE EXPLORER              */
+/*--------------------------------------------------------------*/
+
+body{
+	background-color: silver;
+	background-image:url(images/autres/fond.webp);
+	background-size: cover;
+}
+
+div.bloc{
+	background-color: white; 
+	width: 100%; height: 90px;
+	position:absolute; top:0px; left:0px;
+}
+
+img.logoevariste{
+	position: absolute;
+	top:15px; right:10px;
+	height:60px;
+	}
+
+div.emplacements{
+	position:absolute;
+	top:190px;
+	left:40px;
+}
+
+input.emplacements{
+	height:250px;
+}
+
+
+h1{
+	position:absolute;
+	top:5px;
+	left:30px;
+	font-family: Ubuntu; font-weight: bold;
+	font-size: 30px; color: black;
+}

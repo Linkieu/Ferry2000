@@ -1,0 +1,410 @@
+/*--------------------------------------------------------------*/
+/*       MISE EN PAGE FENETRE PARAMETRES ET AIDE NOTAMMENT      */
+/*--------------------------------------------------------------*/
+
+
+body{
+	background-color: silver
+}
+
+div.blochaut{
+	background-color: white; 
+	width: 586px; height: 80px;
+	position:absolute; top:0px; left:0px;
+}
+
+h1.blochaut{
+	position:absolute;
+	top:5px;
+	left:30px;
+	font-family: windowsfont; font-weight: bold;
+	font-size: 15px; color: black;
+}
+
+p.blochaut{
+	position:absolute;
+	top:17px; left:60px;
+	width: 400px;
+	font-family: windowsfont;
+	font-size: 15px; color: black;
+}
+
+img.blochaut{
+	position:absolute;
+	top:12px; right: 20px;
+	width: 55px; height:55px;
+}
+
+img.barre1{
+	position:absolute; top:81px; left:0px;
+	width:586px; height:2px;
+}
+
+div.bloccote{
+	background-color: #030A64; 
+	width: 170px; height: 317px;
+	position:absolute; top:82px; left:0px;
+}
+
+img.bloccote{
+	position:relative;
+	top:10px
+}
+
+img.droite{
+	position:absolute;
+	right:360px; top:100px;
+	width:32px; height:32px;
+}
+
+p.droite{
+	position:absolute;
+	left:240px; top:85px;
+	width:320px; height:70px;
+	font-family: windowsfont; font-size: 15px;
+	overflow: hidden; /*Si un mot est couper par la limite, on cache ce qui sort (et aussi légèrement avant)*/
+	text-overflow: ellipsis; /*On place 3 petits points juste avant la coupure*/
+}
+
+
+img.barre2{
+	position:absolute; bottom:61px; right:0px;
+	width:416px; height:2px;
+}
+
+/*--------------------------------------------------------------*/
+/*         DISPOSITION INPUT (BOUTON DE CONFIRMATION...)        */
+/*--------------------------------------------------------------*/
+
+div.connexion{
+	position:absolute;
+	top:170px; right:80px;
+	}
+	
+input.connexion1{
+	position:absolute;
+	right:-70px;
+	}
+	
+input.connexion2{
+	position:absolute;
+	right:-70px;
+	}
+	
+input.connexion3{
+	position:absolute;
+	right:-70px;
+	}
+	
+input.bouton1{
+	position:absolute;
+	right:70px;
+	top:190px;
+	}
+	
+input.bouton2a{
+	position:absolute;
+	right:210px;
+	top:190px;
+	}
+	
+input.bouton2b{
+	position:absolute;
+	right:70px;
+	top:190px;
+	}
+	
+	
+	
+input.bouton3a{
+	position:absolute;
+	right:222px;
+	bottom:15px;
+	}
+	
+input.bouton3b{
+	position:absolute;
+	right:130px;
+	bottom:15px;
+	}
+
+input.bouton3c{
+	position:absolute;
+	right:20px;
+	bottom:15px;
+	}
+	
+input.para_choix{
+	position:relative;
+	margin-right : 54px;
+	margin-bottom:47px;
+	}
+	
+label.connexion{
+	position:relative;
+	left: -192px;
+	text-align:center;
+	font-family: windowsfont; font-size: 13px;
+}
+
+
+/*--------------------------------------------------------------*/
+/*     MISE EN PAGE ICONS DU MENU DES PARAMETRES GRAPHIQUE      */
+/*--------------------------------------------------------------*/
+
+
+img.parametre_pos{
+	width:48px; height:48px;
+	margin-right : 50px;
+}
+
+p.parametre_pos{
+	display:inline-block; width: 90px; height:100px;
+	overflow: hidden; /*Si un mot est couper par la limite, on cache ce qui sort (et aussi légèrement avant)*/
+	text-overflow: ellipsis; /*On place 3 petits points juste avant la coupure*/
+	margin-right : 7px;
+	text-align:center;
+	font-family: windowsfont;
+	font-size: 12px; color: black;
+}
+
+/*MINIATURE DES FONDS D'ECRAN*/
+
+img.parametre_graph_pos{
+	width:52px; height:42px;
+	margin-right : 20px;
+	margin-bottom : 17px;
+}
+
+/*DISPOSITION DE LA PAGE DES THEMES*/
+select.theme_c1{
+	position: absolute;
+	top:200px; left:300px;
+}
+
+label.theme_c1{
+	position: absolute;
+	top:180px; left:300px;
+}
+
+
+
+div.themes{
+	position: absolute;
+	top:180px; left:210px;
+	width:370px;
+}
+
+input.couleurs{
+	position: relative;
+	left:-85px;
+	margin-right:-50px;
+}
+
+label.themes_couleurs{
+	position:relative;
+	top:-30px;
+	font-family: windowsfont;
+	font-size: 15px; color: black;
+}
+
+
+div.pointeur{
+position: absolute;
+top:200px; left:220px;
+}
+
+
+input.pointeur{
+	position: relative;
+	left:-40px;
+	top:45px;
+
+}
+
+label.themes_pointeur{
+	position:relative;
+	top:20px; left:85px;
+	font-family: windowsfont;
+	font-size: 15px; color: black;
+}
+
+label.moins{
+	position:relative;
+	top:45px; left:-210px;
+	font-family: windowsfont;
+	font-size: 25px; color: black;
+}
+label.plus{
+	position:relative;
+	top:45px; left:-35px;
+	font-family: windowsfont;
+	font-size: 25px; color: black;
+	
+}
+
+div.police{
+	position: absolute;
+	top:310px; left:220px;
+}
+
+label.themes_police{
+	position:relative;
+	top:-20px; left:70px;
+	font-family: windowsfont;
+	font-size: 15px; color: black;
+}
+select.themes_police{
+	position:relative;
+	left:-80px;
+}
+
+option.police_centre{
+	font-weight: bold;
+	text-align: center;
+}
+
+/*DISPOSITION DES PARAMETRES D'ADMINISTRATION*/
+
+div.admin{
+	position: absolute;
+	top:220px; left:300px;
+	width:100px;
+}
+
+input.admin{
+	top:-32px;
+	position:relative;
+	margin-bottom:27px;
+}
+
+p.admin{
+	width:320px;
+	top:-70px; left:-80px;
+	font-family: windowsfont;
+	font-size: 15px; color: black;
+	position:relative;
+	margin-bottom:30px;
+	text-align:center; font-weight: bold;
+}
+
+/*---------------------------------------------------------------------*/
+/*MISE EN PAGE DE LA PAGE D'ADMINISTRATION (CREER/MODIF/SUPPR SESSION)*/
+/*REMARQUE: QUELQUES ELEMENTS EXCLUSIF AUX PAGE DE CREATIONS         */
+/*------------------------------------------------------------------*/
+
+div.bloccote_creersession{
+	background-color: #030A64; 
+	width: 170px; height: 312px;
+	position:absolute; top:0px; left:0px;
+}
+
+img.bloccote_creersession{
+	position:relative;
+	top:5px;
+	width:160px;
+}
+
+
+img.droite_creersession{
+	position:absolute;
+	right:360px; top:100px;
+	width:32px; height:32px;
+}
+
+p.droite_creersession{
+	position:absolute;
+	left:190px; top:5px;
+	width:320px; height:70px;
+	font-family: windowsfont; font-size: 15px;
+	overflow: hidden; /*Si un mot est couper par la limite, on cache ce qui sort (et aussi légèrement avant)*/
+	text-overflow: ellipsis; /*On place 3 petits points juste avant la coupure*/
+}
+
+img.barre2_creersession{
+	position:absolute; bottom:50px; right:0px;
+	width:590px; height:2px;
+}
+
+div.disposition_creersession{
+	position:absolute;
+	top:80px; right:120px;
+	}
+	
+p.creersession_msgbas{
+	position:absolute;
+	bottom:80px; left:190px;
+	font-family: windowsfont;
+	font-size: 15px; color: black;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*MISE EN PAGE DE LA PAGE D'ADMINISTRATION MODIF SESSION              */
+/*-------------------------------------------------------------------*/
+
+div.modif_session_themes{
+	position: absolute;
+	top:120px; left:210px;
+	width:370px;
+}
+
+div.modif_session_pointeur{
+position: absolute;
+top:140px; left:220px;
+}
+
+div.modif_session_police{
+	position: absolute;
+	top:250px; left:220px;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*MISE EN PAGE DE LA PAGE D'ADMINISTRATION SUPPR SESSION              */
+/*-------------------------------------------------------------------*/
+
+
+p.supprsession1{
+	position: absolute;
+	top:60px; left:200px;
+	font-family: windowsfont;
+	font-size: 16px; color: FireBrick;
+	width:350px;
+}
+
+p.supprsession2{
+	position: absolute;
+	top:150px; left:190px;
+	font-family: windowsfont;
+	font-size: 15px; color: black;
+	width:380px;
+}
+
+span.tab{
+	margin-left:30px;
+}
+
+
+/*--------------------------------------------------------------*/
+/*     MISE EN PAGE DOSSIERS     */
+/*--------------------------------------------------------------*/
+
+div.posform_para_dossiers1{
+	position:absolute;
+	top:170px;left:250px;
+	width:10px;
+}
+
+div.posform_para_dossiers2{
+	position:absolute;
+	top:157px;left:275px;
+	font-family: windowsfont;
+	font-size: 15px; color: black;
+}
+
+p.pos_para_dossiers1{
+	margin-bottom:-12px;
+}
+
+

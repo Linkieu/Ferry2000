@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------*/
+/*        CHARGEMENT DES POLICES D'ECRITURES UTILISEES          */
+/*--------------------------------------------------------------*/
+
+
+@font-face {
+  font-family: windowsfont;
+  src: url(polices/MS_Sans_Serif.ttf);
+}
+
+@font-face {
+  font-family: verdanab;
+  src: url(polices/verdanab.ttf);
+}
+
+@font-face {
+  font-family: arial;
+  src: url(polices/arial.ttf);
+}
+
+@font-face {
+  font-family: impact;
+  src: url(polices/impact.ttf);
+}
+
+@font-face {
+  font-family: ComicSansMS;
+  src: url(polices/comicbd.ttf);
+}
+
+@font-face {
+  font-family: TimesNewRoman;
+  src: url(polices/times.ttf);
+}
+
+@font-face {
+  font-family: NiseSegaSonic;
+  src: url(polices/NiseSegaSonic.TTF);
+}
+
+@font-face {
+  font-family: HyliaSerifBeta;
+  src: url(polices/HyliaSerifBeta-Regular.otf);
+}
+
+@font-face {
+  font-family: Ketchum;
+  src: url(polices/Ketchum.otf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(polices/Ubuntu-Bold.ttf);
+	}
+	
+@font-face {
+  font-family: YuGothM;
+  src: url(polices/YuGothM.ttc);
+	}
+	
+	

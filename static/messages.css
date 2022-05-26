@@ -1,0 +1,42 @@
+@font-face {
+  font-family: windowsfont;
+  src: url(polices/MS_Sans_Serif.ttf);
+
+}
+
+/*--------------------------------------------------------------*/
+/*        AFFICHAGE DES MESSAGES POP-UP D'EVARISTE 2000         */
+/*--------------------------------------------------------------*/
+
+
+h1.titre_message{
+	position: absolute; 
+	top: 257px; left: 190px;
+	font-size: 13px; color: white;
+	font-family: windowsfont;
+}
+
+p.message{
+	position: absolute; 
+	top: 275px; left: 240px;
+	font-family: windowsfont;
+}
+
+img.message{
+	position: absolute; 
+	top: 260px; left: 180px;
+}
+
+img.msg_icon{
+	position: absolute; 
+	top: 292px; left: 193px;
+	width: 34px; height:34px; /*Largeur / Hauteur*/
+}
+
+
+div.refermer_message{
+	position: absolute; 
+	top: 375px; left: 360px; 
+}
+
+

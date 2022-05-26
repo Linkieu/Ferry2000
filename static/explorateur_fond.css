@@ -1,0 +1,45 @@
+/*--------------------------------------------------------------*/
+/*                 MISE EN PAGE DE MES DOCUMENTS                */
+/*--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+Pour l'affichage de tous les documents accessible sur une même
+page, nous ne pouvons pas simplement afficher une image.
+Pour ensuite afficher les lignes de documents.
+
+Ainsi le fond est diviser en 3 parties.
+-	la partie principal, en haut à droite.
+-	le fond permettant de continuer de haut en bas la partie
+	principale.
+-	la partie à droite qui va completer la partie principal à
+	droite.
+- la partie basse, toujours au premier plan, mais qui permet
+de continuer à afficher le bas de l'explorateur de fichiers.
+Bien que la liste des documents à afficher est longue.
+--------------------------------------------------------------*/
+
+
+body{
+	background-image:url(images/system/bibliotheques/fond_biblio.png);
+	background-size: 767px 3px;
+}
+
+img.adroite{
+	position:absolute;
+	right:0px; top:0px;
+	height:535px;
+}
+
+img.enbas{
+	position:fixed;
+	left:0px; bottom:0px;
+	width:784px; height:28px;
+	z-index: 10; /* Permet de garder l'image toujours au premier plan */
+}
+
+img.explorateur{
+	position:absolute;
+	top:0px; left:0px;
+	width:734px;
+    height:536px; 
+}

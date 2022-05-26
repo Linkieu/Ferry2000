@@ -1,0 +1,64 @@
+/*--------------------------------------------------------------*/
+/*                 DISPOSITION MENU D'AIDE                      */
+/*--------------------------------------------------------------*/
+
+img.logohaut_aide{
+	position:absolute;
+	left:35%; top:10px;
+	height:60px;
+}
+
+div.blocgauche_aide{
+	background-color: #A5CEF7; 
+	width: 35%; height: 319px;
+	position:absolute; top:81px; left:0px;
+}
+
+div.barremilieu_aide{
+background: linear-gradient(to right,#0000C6,#A5CEF7,#0000C6);
+position:absolute;
+top:75px; left:0px;
+width:100%; height:10px;
+}
+
+img.bleu_aide{
+	position:relative;
+	margin-bottom:30px;
+}
+
+a.bleu_aide{
+	margin-bottom:30px;
+	position: absolute; 
+	left:0px;
+	height:35px; width:195px;
+}
+
+p.menu_aide{
+	position:relative;
+	top:-5px; left:10px;
+	font-family: windowsfont;
+	font-size: 15px; color: black; font-weight: bold;
+}
+
+img.fond_aide{
+	position:absolute;
+	top:5px; left:-45px;
+	width:381px; height:315px;
+	opacity: 0.1;
+}
+
+h1.titre_aide{
+	position:absolute;
+	top:0px; left:-30px; width:320px;
+	font-family: YuGothM;
+	font-size: 22px; color: black; font-weight: bold;
+	color: #31639C;
+}
+
+p.texte_aide{
+	position:absolute;
+	top:40px; left:-30px; width:335px;
+	font-family: windowsfont;
+	font-size: 15px; color: black;
+	color: black;
+}

@@ -1,0 +1,39 @@
+/*L'unique rôle de ce fichier css est de gérer l'affichage du fond du site web (la page html possédant l'iframe*/
+
+/*--------------------------------------------------------------*/
+/*   AFFICHAGE DU FOND DU SITE WEB (AVEC LE NOM DU PROJET ETC)   */
+/*--------------------------------------------------------------*/
+
+body{
+	
+	
+	background-image:url(images/autres/fond.webp);
+	
+	background-size:100%;
+	background-position:center 0px;
+	background-repeat:repeat;
+	background-color: gray
+}
+
+
+img.logo_fond{
+		display: block;
+		margin-left: 1%;
+		margin-right: auto
+		}
+	
+
+iframe.incrustation{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:-75px;
+}
+P.centrer { text-align: center }
+
+  
+@font-face {
+  font-family: KOMIKAX;
+  src: url(polices/KOMIKAX.ttf);
+
+}

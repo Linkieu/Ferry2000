@@ -1,0 +1,202 @@
+/*--------------------------------------------------------------*/
+/*                AFFICHAGE DE L'EDITEUR DE TEXTE               */
+/*--------------------------------------------------------------*/
+
+div.ew_blochaut{
+	background-color: silver; 
+	width: 586px; height: 30px;
+	position:absolute; top:0px; left:0px;
+}
+
+div.ew_fond{
+	position: absolute;	top:30px; left:0px;
+	width: 586px; height: 370px;
+	background-color: white; 
+}
+
+div.ew_barre{
+	position: absolute;
+	top:5px; left:10px;
+}
+
+input.ew_barre{
+	position: relative;
+	margin-right: 20px;
+}
+
+img.ew_barre{
+	position: absolute;
+	top:3px; left:290px;
+	width:16px; height:16px;
+}
+
+p.ew_barre{
+	position:absolute;
+	top:-6px; left: 320px;
+	width:250px;
+	font-family: windowsfont; font-size: 12px;
+	overflow: hidden; /*Si un mot est couper par la limite, on cache ce qui sort (et aussi légèrement avant)*/
+	text-overflow: ellipsis; /*On place 3 petits points juste avant la coupure*/
+}
+
+textarea.ew_texte{
+	position:absolute;
+	top:30px; left:3px;
+	resize:none
+}
+
+/*--------------------------------------------------------------*/
+/*             DISPOSITION ENREGISTREMENT/SUPPRESSION           */
+/*--------------------------------------------------------------*/
+
+/*Remarque: Il se peut que certains éléments soit exclusif
+à la sauveharde.*/
+
+div.ew_save_fond1{
+	position: absolute;	top:0px; left:0px;
+	width: 366px; height: 40px;
+	background-color: white; 
+}
+
+div.ew_save_fond2{
+	position: absolute;	top:40px; left:0px;
+	width: 366px; height: 210px;
+	background-color: silver; 
+}
+
+h1.ew_save_titre{
+	position: absolute;	top:0px; left:10px;
+	font-family: windowsfont; font-size: 17px;
+}
+
+p.ew_save_form1{
+	position: absolute;
+	top:50px; left: 20px;
+	font-family: windowsfont; font-size: 14px;
+}
+
+p.ew_save_form2{
+	position: absolute;
+	top:100px; left: 32px;
+	font-family: windowsfont; font-size: 14px;
+}
+
+input.ew_form1{
+	position: absolute;
+	top:62px; left: 120px;
+}
+
+div.ew_form2{
+	position: absolute;
+	top:115px; left: 107px;
+	width:20px;
+}
+
+div.ew_txtform2{
+	position: absolute;
+	top:102px; left: 130px;
+}
+
+p.ew_txtform2{
+	margin-bottom: -10px;
+	font-family: windowsfont; font-size: 14px;
+}
+
+input.ew_save_envoie{
+	position:absolute;
+	top:100px; left:-20px;
+}
+
+input.ew_save_annuler{
+	position:absolute;
+	top:100px; left:80px;
+}
+
+img.barre2{
+	position:absolute; top:40px; left:0px;
+	width:366px; height:2px;
+}
+
+img.ew_logoword{
+	position:absolute;
+	top:5px; left:325px;
+	width:32px; height:32px;
+}
+
+
+div.ew_save_fond3a{
+	position: absolute;	top:40px; left:0px;
+	width: 366px; height: 210px;
+	background-color: #398CA8; 
+}
+div.ew_save_fond3b{
+	position: absolute;	top:40px; left:0px;
+	width: 366px; height: 210px;
+	background-color: #3287AC; 
+}
+
+img.ew_save_clippya{
+	position:absolute;
+	top:120px; left:238px;
+	width:128px; height:128px;
+}
+
+img.ew_save_clippyb{
+	position:absolute;
+	top:120px; left:258px;
+	width:100px; height:100px;
+}
+
+img.ew_save_msgclippy{
+	position:absolute;
+	top:80px; left:10px;
+	width:250px;
+}
+
+p.ew_save_msgclippy{
+	position:absolute;
+	top:80px; left:30px;
+	width:200px;
+	font-family: windowsfont; font-size: 14px;
+	overflow: hidden; /*Si un mot est couper par la limite, on cache ce qui sort (et aussi légèrement avant)*/
+	text-overflow: ellipsis; /*On place 3 petits points juste avant la coupure*/
+}
+
+input.ew_save_fermer{
+	position:absolute;
+	top:220px; left:130px;
+}
+
+
+
+
+/*--------------------------------------------------------------*/
+/*              DISPOSITION SUPPRESSION UNIQUEMENT              */
+/*--------------------------------------------------------------*/
+
+input.ew_supprform1{
+	position: absolute;
+	top:132px; left: 90px;
+}
+
+p.ew_suppr_form1{
+	position: absolute;
+	top:100px; left: 90px;
+	font-family: windowsfont; font-size: 14px;
+}
+
+p.ew_nomtxt_entier{
+	position: absolute;
+	top:40px; left: 10px;
+	font-family: windowsfont; font-size: 14px;
+	width:350px;
+	word-wrap: break-word;
+}
+
+p.ew_emplacementtxt2{
+	position: absolute;
+	top:150px; left: 10px;
+	font-family: windowsfont; font-size: 14px;
+	width:350px;
+	color:firebrick;
+}
