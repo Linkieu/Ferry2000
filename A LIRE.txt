@@ -1,0 +1,40 @@
+Version public, basé sur la version envoyé au professeur.
+-----------------------------== FERRY 2000 ==-----------------------------
+→ Projet de Terminal NSI pour le 09/05/2022
+→ Par Linkieu
+
+
+---------------------------==[ UTILISATION ]==-----------------------------
+
+Navigateur Internet: Google Chrome / Microsoft Edge / Chromium.
+Note: Le cas échéant, utilisez Firefox ou un autre navigateur.
+
+Veuillez utiliser le projet avec Spyder.
+
+Télécharger Spyder:
+→ https://www.spyder-ide.org/
+ou
+→ https://www.anaconda.com/products/distribution
+
+En cas de problème d'installation, contactez moi en mp sur...
+- Twitter (@Mat7sept)
+
+Note:
+Ce projet ne marche pas sur tous les ordinateurs.
+C'est ce qui m'a valu cette note.
+
+---------------------==[ FONCTIONNEMENT DU PROJET ]==----------------------
+
+► Fichier Python à exécuter: FERRY 2000.py
+
+Sessions:
+► Session Administrateur:
+	→ Nom d'utilisateur: ADMIN
+	→      Mot de passe: ADMIN123
+
+► Session Utilisateur:
+	→ Nom d'utilisateur: elinfo
+	→      Mot de passe: geek
+
+
+---------------------------------------------------------------------------
