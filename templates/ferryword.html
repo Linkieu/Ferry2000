@@ -1,0 +1,17 @@
+
+    <div class="ew_blochaut">
+    </div>
+    
+    <div class="ew_fond">
+    </div>
+    
+    
+    <form action="ferryword" method="get">
+        <div class="ew_barre">
+        <input class="ew_barre" type="submit" value="     Enregistrer     " {{parametre_input}}>
+        <input name="save" type="hidden" value='True'>
+		<img class="ew_barre" src="static/images/system/icons/{{icon}}" alt="Fichier non protégé">
+        <p class="ew_barre">{{nom_doc}}
+        </div>
+        <textarea class="ew_texte" rows="22" cols="76" maxlength="3000" name="texte" required {{parametre_input2}}>{{texte}}</textarea>
+    </form>

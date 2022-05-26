@@ -1,0 +1,37 @@
+	<div class="{{pos1}}">
+            <label for="themes_c1" class="themes_couleurs" title="Choisir une couleur">Couleur Fond1:</label>
+            <input type="color" class="couleurs" id="themes_c1" name="themes_c1" value='{{theme_c1}}'>
+            
+            <label for="themes_c2" class="themes_couleurs" title="Choisir une couleur">Couleur Fond2:</label>
+            <input type="color" class="couleurs" id="themes_c2" name="themes_c2" value='{{theme_c2}}'>
+            
+            <label for="themes_titre" class="themes_couleurs" title="Choisir une couleur">Couleur Texte:</label>
+            <input type="color" class="couleurs" id="themes_titre" name="themes_titre" value='{{theme_titre}}'>
+            
+            <div style="{{pos2}}">
+                <input class="{{class_bt}}" type="submit" value="{{nom_bt}}">
+            </div>
+        </div>
+            
+        <div class="{{pos3}}">
+            <label for="themes_fondu" class="themes_pointeur" title="Choisir l'opacité">Opacité de la barre:</label>
+            <input type="range" class="pointeur" id="themes_fondu" name="themes_fondu" min="10" max="100" value='{{theme_opa}}' step="5">
+            <label for="themes_fondu" class="plus">+</label>
+            <label for="themes_fondu" class="moins">-</label>
+        </div>
+        
+        <div class="{{pos4}}">
+        <label for="themes_police" class="themes_police" title="Choisir la police de la barre des titres">Sélectionner une Police:</label>
+        <select name="themes_police" id="themes_police" class="themes_police">
+            <option value='{{theme_police}}' class="police_centre">Police Actuel</option> 
+            <option value="windowsfont">Windows</option>
+            <option value="ComicSansMS">Comic Sans MS</option>
+            <option value="Arial">Arial</option>
+            <option value="TimesNewRoman">Times New Roman</option>
+            <option value="Impact">Impact</option>
+            <option value="Ubuntu">Ubuntu</option>
+            <option value="NiseSegaSonic">NiseSegaSonic</option>
+            <option value="HyliaSerifBeta">Hylia Serif</option>
+            <option value="Ketchum">Ketchum</option>
+        </select>
+	</div>
