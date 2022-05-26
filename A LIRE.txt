@@ -1,4 +1,6 @@
 Version public, basé sur la version envoyé au professeur.
+Remarque: pas mal de ressource sont issus d'internet.
+Je ne suis pas le créateurs des polices d'écriture par exemple.
 -----------------------------== FERRY 2000 ==-----------------------------
 → Projet de Terminal NSI pour le 09/05/2022
 → Par Linkieu
