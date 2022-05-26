@@ -1,0 +1,258 @@
+h1.index{
+    text-align:center
+}
+
+body{
+	background-color: teal
+}
+
+img.interface{
+
+    max-width: 100%;
+    display: block;
+}
+
+/*--------------------------------------------------------------*/
+/*                BARRE DES TITRES DES FENÊTES                  */
+/*--------------------------------------------------------------*/
+img.titlebar_grande{
+	position:absolute;
+	width: 788px; height:20px; /*Largeur / Hauteur*/	
+}
+img.fermer_grande{
+	position:absolute;
+	width: 17px; height:15px; /*Largeur / Hauteur*/
+	right:12px; top:11px;
+}
+
+img.icone_grande{
+	position:absolute;
+	width: 15px; height:15px; /*Largeur / Hauteur*/
+	left:12px; top:11px;
+}
+
+
+p.titre_grande{
+	position:absolute;
+	top:-2px; left:33px;
+	font-size: 13px;
+}
+/**/
+img.titlebar_moyenne{
+	position:absolute;
+	width: 590px; height:20px; /*Largeur / Hauteur*/	
+}
+
+img.fermer_moyenne{
+	position:absolute;
+	width: 17px; height:15px; /*Largeur / Hauteur*/
+	left:569px; top:3px;
+	
+}
+
+p.titre_fenetre{
+	position:absolute;
+	top:-10px; left:25px;
+	font-size: 13px;
+	width:300px;
+}
+
+img.icone_fenetre{
+	position:absolute;
+	width: 15px; height:15px; /*Largeur / Hauteur*/
+	left:4px; top:3px;
+}
+
+/**/
+
+img.titlebar_petite{
+	position:absolute;
+	width: 370px; height:20px; /*Largeur / Hauteur*/	
+}
+
+img.fermer_petite{
+	position:absolute;
+	width: 17px; height:15px; /*Largeur / Hauteur*/
+	left:350px; top:3px;
+	
+}
+
+/*--------------------------------------------------------------*/
+/*              ARRIERE PLAN + MENU DEMARRER                    */
+/*--------------------------------------------------------------*/
+
+img.bureau{
+	display: block;
+	width: 788px; height:559px; /*Largeur / Hauteur*/
+}
+
+img.filtre_démarrer{
+	position:absolute;
+	bottom:40px;
+}
+
+img.démarrer{
+	position:absolute;
+    bottom:12px;
+	left:10px;
+}
+
+img.menu_démarrer{
+	position:absolute;
+    bottom:34px;
+	left:8px;
+}
+
+/*EMPLACEMENTS*/
+
+img.démarrer_programmes{
+	display: block;
+	position:absolute;
+    bottom:237px;
+	left:31px;
+	width: 150px; height:32px; /*Largeur / Hauteur*/
+}
+img.démarrer_documents{
+	display: block;
+	position:absolute;
+    bottom:205px;
+	left:31px;
+	width: 150px; height:32px; /*Largeur / Hauteur*/
+}
+
+img.démarrer_parametres{
+	display: block;
+	position:absolute;
+    bottom:173px;
+	left:31px;
+	width: 150px; height:32px; /*Largeur / Hauteur*/
+}
+
+img.démarrer_EExplorer{
+	display: block;
+	position:absolute;
+    bottom:141px;
+	left:31px;
+	width: 150px; height:32px; /*Largeur / Hauteur*/
+}
+img.démarrer_aide{
+	display: block;
+	position:absolute;
+    bottom:109px;
+	left:31px;
+	width: 150px; height:32px; /*Largeur / Hauteur*/
+}
+img.démarrer_executer{
+	display: block;
+	position:absolute;
+    bottom:77px;
+	left:31px;
+	width: 150px; height:32px; /*Largeur / Hauteur*/
+}
+img.démarrer_arrêter{
+	display: block;
+	position:absolute;
+    bottom:37px;
+	left:31px;
+	width: 150px; height:32px; /*Largeur / Hauteur*/
+}
+
+
+/*--------------------------------------------------------------*/
+/*                      BARRE DES TÂCHES                        */
+/*--------------------------------------------------------------*/
+
+img.emplacement_taskbar{
+    display:inline-block;
+	margin-right : -12px
+}
+
+img.icone_taskbar{
+	width: 15px; height:15px; /*Largeur / Hauteur*/
+	position:relative;
+	left:-145px;
+	bottom:4px
+	}
+	
+p.nom_taskbar{
+	font-family: windowsfont;
+	font-size: 13px;
+	white-space: nowrap; /*Affiche le texte sur une et unique ligne*/
+	width: 133px; height: 15px; /*Taille du texte*/
+	overflow: hidden; /*Si un mot est couper par la limite, on cache ce qui sort (et aussi légèrement avant)*/
+	text-overflow: ellipsis; /*On place 3 petits points juste avant la coupure*/
+	}
+	
+p.plus_taskbar{
+	font-family: windowsfont;
+	font-size: 13px;
+	}
+
+img.mini_icones{
+	position:relative;
+	margin-right:2px;
+}
+
+
+/*-------------------------------------*/
+
+
+
+
+iframe.grande_fenetre{
+	position:absolute;
+	bottom:38px;
+}
+
+iframe.moyenne_fenetre{
+	position:absolute;
+	bottom:110px; left:110px;
+	box-shadow: 2px 2px 12px #555; /*Ombre sur les bords de l'iframe*/
+}
+
+iframe.petite_fenetre{
+	position:absolute;
+	bottom:160px; left:230px;
+	box-shadow: 2px 2px 12px #555; /*Ombre sur les bords de l'iframe*/
+}
+
+
+iframe.fenêtre_caché{
+	/*
+	CSS pour les iframes ayant un rôle spécial: d'exister, mais de ne pas apparaître.
+	Leur seul et unique objectif est de permettre aux iframes qui doivent apparaître, de pouvoir afficher la page web prévu.
+	Le cache du navigateur va juste placer le contenu sauvegarder dans ces iframes "fantôme". Afin de ne pas déranger les autres.
+	*/
+	position:absolute;
+	width: 0px; height:0px; /*Largeur / Hauteur*/
+	display:none;
+}
+
+
+/*-------------------------------------*/
+/*   CENTRER DU TEXTE OU UN ELEMENT    */
+/*-------------------------------------*/
+
+
+P.centrer { text-align: center }
+
+div.centrer {
+   position:absolute;
+   top:-50px;
+   left:60%;
+   width:200px;
+   height:200px;
+}
+
+
+
+/*--------------------------------------------------------------*/
+/*    IMG DE FOND DU PANNEAU DE CONFIG. / BIBLIO. LOGICIELS     */
+/*--------------------------------------------------------------*/
+
+img.control_pannel{
+	position:absolute;
+	top:0px; left:0px;
+	width:784px; /* oui */
+    height:535px; /* bien sur */
+}
