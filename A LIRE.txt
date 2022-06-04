@@ -14,13 +14,17 @@ Note: Le cas échéant, utilisez Firefox ou un autre navigateur.
 Veuillez utiliser le projet avec Spyder.
 
 Télécharger Spyder:
-→ https://www.spyder-ide.org/
-ou
 → https://www.anaconda.com/products/distribution
+
+Note:
+Anaconda est un peu lourd... Mais au moins ils vont fournit tous les modules.
+Dont ceux utilisés dans le projet.
+Si vous souhaitez ne pas vous casser la tête, passez par Anaconda (lien si dessus).
+Au pire, désinstaller le après votre visite sur mon projet !
 
 En cas de problème d'installation, contactez moi en mp sur...
 - Twitter (@Mat7sept)
-
+- Discord (veuillez rejoindre l'un de mes serveurs)
 Note:
 Ce projet ne marche pas parfaitement sur tous les ordinateurs.
 Il peut y avoir des bugs d'affichage...
